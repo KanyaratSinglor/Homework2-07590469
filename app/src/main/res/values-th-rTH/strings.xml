@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HomeWork2</string>
+    <string name="cd">นับถอยหลังวันเลือกตั้ง</string>
+    <string name="d">วัน</string>
+    <string name="h">ชั่วโมง</string>
+    <string name="m">นาที</string>
+    <string name="sec">วินาที</string>
+</resources>

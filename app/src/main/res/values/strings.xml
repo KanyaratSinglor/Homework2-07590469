@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HomeWork2</string>
+    <string name="cd">Count Down To Election Day</string>
+    <string name="d">Days</string>
+    <string name="h">Hours</string>
+    <string name="m">Minutes</string>
+    <string name="sec">Seconds</string>
+</resources>
