@@ -44,7 +44,12 @@ public class NextActivity extends AppCompatActivity {
                         AlertDialog.Builder dialog = new AlertDialog.Builder(NextActivity.this);
                         dialog.setTitle("ผลการตรวจสอบสิทธิเลือกตั้ง");
                         dialog.setMessage("คุณเป็นมีผู้มีสิทธิเลือกตั้ง");
-                        dialog.setPositiveButton("OK", null);
+                        dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                finish();
+                            }
+                        });
 
                         dialog.show();
 
